@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+  "name": "Azfer.io",
+  "description": "Content & ads tailored for you without exposing yourself",
+  "version": "1",
+  "author": "EIT Digital Summer School - team 4",
+  "browser_action": {
+    "default_icon": "logo.png",
+    "default_title": "Profile",
+    "default_popup": "popup.html"
+  },
+  "chrome_url_overrides": {
+  },
+  "permissions": [
+    "activeTab"
+  ]
+}
