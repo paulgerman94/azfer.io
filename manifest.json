@@ -4,6 +4,7 @@
   "description": "Content & ads tailored for you without exposing yourself",
   "version": "1",
   "author": "EIT Digital Summer School - team 4",
+  "options_page": "options.html",
   "browser_action": {
     "default_icon": "logo.png",
     "default_title": "Profile",
@@ -12,6 +13,12 @@
   "chrome_url_overrides": {
   },
   "permissions": [
-    "activeTab"
-  ]
+    "activeTab",
+    "storage",
+    "tabs"
+  ],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  }
 }
